@@ -13,8 +13,6 @@ class UserController extends Controller
     function __construct()
     {
         $this->middleware('auth');
-
-        
         $this->setGridId('users');
         $this->setTabsId('user');
         $this->setResource('App\Models\User');
