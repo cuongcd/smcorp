@@ -32,10 +32,8 @@ class User
     }
 
     public static function GetAllThongBao(){
-        $notifies = (Notify::where('status','=',1)->get());//->orderBy('seq_no','ASC')
+        $notifies = (Notify::where('status','=',1)->get());
         return $notifies;
-//        print_r(json_encode($notifies));
-//        die();die
     }
 
 }

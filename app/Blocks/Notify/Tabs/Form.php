@@ -40,11 +40,11 @@ class Form extends BaseForm
             ],
             'required' => true,
         ]);
-        $this->_addField('seq_no', [
-            'label' => 'Thứ Tự Hiển Thị',
-            'type'  => 'number',
-            'required' => true,
-        ]);
+//        $this->_addField('seq_no', [
+//            'label' => 'Thứ Tự Hiển Thị',
+//            'type'  => 'number',
+//            'required' => true,
+//        ]);
 
         parent::_addFields();
     }

@@ -68,10 +68,10 @@ class Grid extends BaseGrid
                     0 => 'Ẩn',
                     1 =>'Hiện',
                 ]
-            ])
-            ->_addColumn('seq_no',[
-                'label' =>'Stt',
             ]);
+//            ->_addColumn('seq_no',[
+//                'label' =>'Stt',
+//            ]);
 
     }
 
